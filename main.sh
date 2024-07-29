@@ -37,7 +37,7 @@ install_neofetch() {
 
 install_openjdk() {
     echo "Installing OpenJDK 22..."
-    wget https://download.java.net/java/GA/jdk22.0.1/c7ec1332f7bb44aeba2eb341ae18aca4/8/GPL/openjdk-22.0.1_linux-x64_bin.tar.gz
+    wget https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.tar.gz
     tar -xzvf openjdk-17_linux-x64_bin.tar.gz
     echo "Setting environment variables for OpenJDK 22..."
     echo "export JAVA_HOME=$(pwd)/jdk-17" >> ~/.bashrc
